@@ -1,4 +1,10 @@
+[range]
 range(a,b) gets values from a to b-1
+[specialty of :]
 just by adding ":" at the end of line, writing do,then,end etc. can be plainly avoided which is necessary in lua or bash
-use function whenever possible
-
+[dictionary]
+to use dictionary use the below functions
+1.dict_name[key]=value
+2.dict_name[key]
+3.dict_name.pop(key)
+4.print(dict_name) to print the whole dictionary
