@@ -1,0 +1,4 @@
+range(a,b) gets values from a to b-1
+just by adding ":" at the end of line, writing do,then,end etc. can be plainly avoided which is necessary in lua or bash
+use function whenever possible
+
