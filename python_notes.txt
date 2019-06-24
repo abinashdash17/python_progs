@@ -8,3 +8,10 @@ to use dictionary use the below functions
 2.dict_name[key]
 3.dict_name.pop(key)
 4.print(dict_name) to print the whole dictionary
+[list and tuple]
+use str.split(',') to convert str to list delimited by comma.
+use tuple(list_name) to convert list to tuple.
+[classes]
+use 'pass' to run program without error
+__init__(self) for constructor
+use self inside methods.

@@ -1,0 +1,5 @@
+x = input("Enter numbers separated by commas")
+l = x.split(',')
+t = tuple(l)
+print(l)
+print(t)
