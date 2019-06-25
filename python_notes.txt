@@ -11,7 +11,12 @@ to use dictionary use the below functions
 [list and tuple]
 use str.split(',') to convert str to list delimited by comma.
 use tuple(list_name) to convert list to tuple.
+use x.append(element) to add element
+use x.pop() to delete recent element
 [classes]
 use 'pass' to run program without error
 __init__(self) for constructor
 use self inside methods.
+__del__() --> destructor
+use clasname.var to access static variable
+use self.var to access instance variable
