@@ -6,7 +6,10 @@ for i in x_list:
 
 arr = []
 for i in range(0,y[0] ):
+    temp =[]
     for j in range(0,y[1] ):
-        arr[i][j] = i*j
-
+        temp.append(i*j) 
+    arr.append(temp)
+#l1 = [[j*i for j in range(0,y[1])] for i in range(0,y[0])]## one liner to achieve the same result
 print(arr)
+#print(l1)
