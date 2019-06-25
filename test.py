@@ -1,6 +1,3 @@
-x = []
-for i in range(0,11):
-  x.append(i)
-x.pop()
-x.pop()
-print(x)
+l = [1,[1,2,3],[2,3]]
+l[3][0] = 5
+print(l[1][2])

@@ -13,6 +13,8 @@ use str.split(',') to convert str to list delimited by comma.
 use tuple(list_name) to convert list to tuple.
 use x.append(element) to add element
 use x.pop() to delete recent element
+to join a list of strings, use
+",".join(list_of_str)
 [classes]
 use 'pass' to run program without error
 __init__(self) for constructor
