@@ -1,5 +1,6 @@
 [range]
 range(a,b) gets values from a to b-1
+use chr(97) to print character whose ascii value is 97.
 [specialty of :]
 just by adding ":" at the end of line, writing do,then,end etc. can be plainly avoided which is necessary in lua or bash
 [dictionary]
