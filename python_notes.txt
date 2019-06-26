@@ -1,6 +1,8 @@
 [range]
 range(a,b) gets values from a to b-1
+[misc functions)
 use chr(97) to print character whose ascii value is 97.
+use int(str,2) to convert a str in binary form to decimal integer
 [specialty of :]
 just by adding ":" at the end of line, writing do,then,end etc. can be plainly avoided which is necessary in lua or bash
 [dictionary]
@@ -12,6 +14,8 @@ to use dictionary use the below functions
 [list and tuple]
 use str.split(',') to convert str to list delimited by comma.
 use tuple(list_name) to convert list to tuple.
+use set(list_name) to convert list to set (removes redundant element)
+use sorted(list_name) to sort alphabatically.
 use x.append(element) to add element
 use x.pop() to delete recent element
 to join a list of strings, use
