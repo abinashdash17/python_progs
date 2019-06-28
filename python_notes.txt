@@ -5,6 +5,8 @@ use chr(97) to print character whose ascii value is 97.
 use int(str,2) to convert a str in binary form to decimal integer
 use str1.isdigit() and str1.isalpha() to check for digit and alphabet
 use str1.isupper() and str1.islower() to check for upper or lower case
+sum(list_name) -> add numbers in a list
+single line if--> expr if (condition)
 [specialty of :]
 just by adding ":" at the end of line, writing do,then,end etc. can be plainly avoided which is necessary in lua or bash
 [dictionary]
@@ -22,9 +24,10 @@ use x.append(element) to add element
 use x.pop() to delete recent element
 to join a list of strings, use
 ",".join(list_of_str)
-LIST COMPREHENSION:
+LIST COMPREHENSION:{
 lst = [[ i*j for j in range(0,3)] for i in range(0,40) ]
 lst = [ i for i in range(1,5) ]
+}
 li.sort() --> sort contents of list alphabetically but does n't return the list. So to keep list intact first copy to a new list then apply sort on new list.
 [classes]
 use 'pass' to run program without error
