@@ -3,6 +3,8 @@ range(a,b) gets values from a to b-1
 [misc functions)
 use chr(97) to print character whose ascii value is 97.
 use int(str,2) to convert a str in binary form to decimal integer
+use str1.isdigit() and str1.isalpha() to check for digit and alphabet
+use str1.isupper() and str1.islower() to check for upper or lower case
 [specialty of :]
 just by adding ":" at the end of line, writing do,then,end etc. can be plainly avoided which is necessary in lua or bash
 [dictionary]
