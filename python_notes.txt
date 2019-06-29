@@ -7,6 +7,9 @@ use str1.isdigit() and str1.isalpha() to check for digit and alphabet
 use str1.isupper() and str1.islower() to check for upper or lower case
 sum(list_name) -> add numbers in a list
 single line if--> expr if (condition)
+import re --> regex
+re.search("[a-z]",string)
+re.search("[#@$]",string_name)
 [specialty of :]
 just by adding ":" at the end of line, writing do,then,end etc. can be plainly avoided which is necessary in lua or bash
 [dictionary]
