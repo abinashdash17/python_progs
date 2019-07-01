@@ -11,6 +11,7 @@ import re --> regex
 re.search("[a-z]",string)
 re.search("[#@$]",string_name)
 sorted(list1) -> for sorted list
+sorted( ) -> this will sort tuples automatically using 1st parameter then 2nd then 3rd and so on... if order needs to be changed use itemgetter
 [specialty of :]
 just by adding ":" at the end of line, writing do,then,end etc. can be plainly avoided which is necessary in lua or bash
 [dictionary]
@@ -40,3 +41,7 @@ use self inside methods.
 __del__() --> destructor
 use clasname.var to access static variable
 use self.var to access instance variable
+
+
+review the excercises again:
+ex 20
