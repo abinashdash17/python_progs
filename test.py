@@ -1,3 +1,14 @@
-print([[x*y for y in range(0,3)] for x in range(0,3)])
-lst =  [chr(x) for x in range(97,123)]
-print(lst)
+def gennum() :
+    i = 0
+    while True :
+        yield i
+        i += 1
+x = gennum()
+y = gennum()
+for i in x :
+    if i%3 == 0:
+        next(y)
+    print(x,y)
+    if i == 23 :
+        break
+
