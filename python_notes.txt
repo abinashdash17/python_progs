@@ -1,15 +1,16 @@
 [range]
 range(a,b) gets values from a to b-1
 [misc functions)
-use chr(97) to print character whose ascii value is 97.
-use int(str,2) to convert a str in binary form to decimal integer
-use str1.isdigit() and str1.isalpha() to check for digit and alphabet
-use str1.isupper() and str1.islower() to check for upper or lower case
+chr(97) to print character whose ascii value is 97.
+int(str,2) to convert a str in binary form to decimal integer
+str1.isdigit() and str1.isalpha() to check for digit and alphabet
+str1.isupper() and str1.islower() to check for upper or lower case
 sum(list_name) -> add numbers in a list
 single line if--> expr if (condition)
 import re --> regex
 re.search("[a-z]",string)
 re.search("[#@$]",string_name)
+sorted(list1) -> for sorted list
 [specialty of :]
 just by adding ":" at the end of line, writing do,then,end etc. can be plainly avoided which is necessary in lua or bash
 [dictionary]
