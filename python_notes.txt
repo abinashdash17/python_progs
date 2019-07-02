@@ -12,6 +12,10 @@ re.search("[a-z]",string)
 re.search("[#@$]",string_name)
 sorted(list1) -> for sorted list
 sorted( ) -> this will sort tuples automatically using 1st parameter then 2nd then 3rd and so on... if order needs to be changed use itemgetter
+
+for x in something: -> this something can be a list or generator
+round(5.6) -> 6
+int(5.6) -> 5
 [specialty of :]
 just by adding ":" at the end of line, writing do,then,end etc. can be plainly avoided which is necessary in lua or bash
 [dictionary]

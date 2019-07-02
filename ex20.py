@@ -1,12 +1,10 @@
-def numgen(n) :
-    i = 0
-    while i <= n :
-        if i % 7 == 0 :
-            yield str(i)
-        i += 1
+def div_7(n):
+    for i in range(0,n+1):
+        j = i
+        i+=1
+        if j % 7 == 0 :
+            yield j
 
-
-x = input("Enter range :")
-mynumgen = numgen(int(x))
-l1 = list(mynumgen)
-print(",".join(l1))
+x = input("enter a num:")
+for i in div_7(int(x)):
+    print(i)
