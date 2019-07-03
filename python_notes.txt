@@ -27,6 +27,14 @@ with lambda :
 x = lambda a : a*a
 x(2)
 }
+inbuilt doc system :
+use ''' doc text ''' inside function definition
+use fn_name.__doc__ to read the doc
+class ====
+dont use brackets in class definition expression
+i.e class name :
+don't use class name() :
+use __init__() to define instance parameter
 [specialty of :]
 just by adding ":" at the end of line, writing do,then,end etc. can be plainly avoided which is necessary in lua or bash
 [dictionary]
