@@ -16,6 +16,17 @@ sorted( ) -> this will sort tuples automatically using 1st parameter then 2nd th
 for x in something: -> this something can be a list or generator
 round(5.6) -> 6
 int(5.6) -> 5
+how to use lambda:{
+assign lambda to a variable . call the variable with a parameter 
+example:
+with function
+def x(a) :
+	return a*a
+x(2)
+with lambda :
+x = lambda a : a*a
+x(2)
+}
 [specialty of :]
 just by adding ":" at the end of line, writing do,then,end etc. can be plainly avoided which is necessary in lua or bash
 [dictionary]
@@ -24,6 +35,8 @@ to use dictionary use the below functions
 2.dict_name[key]
 3.dict_name.pop(key)
 4.print(dict_name) to print the whole dictionary
+5.dict_name(key,default_value) -> the problem with dict_name[key] is that if key doesn't exist, it  will through an error . The solution is to use the get funciton . It can be used to get a default value if the key doesn't exists.
+6.dict.keys() -> return list of keys
 [list and tuple]
 use str.split(',') to convert str to list delimited by comma.
 use tuple(list_name) to convert list to tuple.
