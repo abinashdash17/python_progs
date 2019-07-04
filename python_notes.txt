@@ -45,6 +45,8 @@ to use dictionary use the below functions
 4.print(dict_name) to print the whole dictionary
 5.dict_name(key,default_value) -> the problem with dict_name[key] is that if key doesn't exist, it  will through an error . The solution is to use the get funciton . It can be used to get a default value if the key doesn't exists.
 6.dict.keys() -> return list of keys
+7.dict.items() -> return list of key and value pair
+8.dict.values() -> returns list of values in dictionary
 [list and tuple]
 use str.split(',') to convert str to list delimited by comma.
 use tuple(list_name) to convert list to tuple.
@@ -59,6 +61,8 @@ lst = [[ i*j for j in range(0,3)] for i in range(0,40) ]
 lst = [ i for i in range(1,5) ]
 }
 li.sort() --> sort contents of list alphabetically but does n't return the list. So to keep list intact first copy to a new list then apply sort on new list.
+slicing:
+li[2:4] - > to get 2nd to 4th element
 [classes]
 use 'pass' to run program without error
 __init__(self) for constructor
