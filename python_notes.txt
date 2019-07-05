@@ -30,6 +30,8 @@ x(2)
 inbuilt doc system :
 use ''' doc text ''' inside function definition
 use fn_name.__doc__ to read the doc
+filter function -> use f_obj = filter(funtion,list) . It returns a filter object which is similar to iterator . So for loop is required to get the elements or list() funtion can be used . Note: the function should return True or False depending upon the required value to be filtered. lambda can be used in place of this function too.
+map function -> this can be used similar to filter instead of retruning treu or false the function should return some value like x*x or x ** 3 etc...
 class ====
 dont use brackets in class definition expression
 i.e class name :
