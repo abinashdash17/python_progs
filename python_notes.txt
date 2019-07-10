@@ -36,6 +36,7 @@ filter and map can be used recurssively . And only 1 list() function is required
 e.g : list(filter(func,map_obj)) where map_obj = map(func,li)
 no need to use list(map_obj) inside filter function.
 map or filter -> range(a,b) can be used as 2nd parameter in this function.e.g - map(func, range(0,21))
+use raise(RuntimeError("text"))
 class ====
 dont use brackets in class definition expression
 i.e class name :
