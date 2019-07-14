@@ -82,6 +82,9 @@ regex tips:
 ^ - starts with
 $ - ends with
 * - zero or more occurance to left of it
+\w - to match alpha numerci chars including _
+
+use re.findall(pat,str1) to get a list of matched string 
 
 review the excercises again:
 ex 20
