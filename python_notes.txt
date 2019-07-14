@@ -1,6 +1,8 @@
 [range]
 range(a,b) gets values from a to b-1
 [misc functions)
+define encoding at start of tge file
+use str1 = u"hello" to use unicode string
 chr(97) to print character whose ascii value is 97.
 int(str,2) to convert a str in binary form to decimal integer
 str1.isdigit() and str1.isalpha() to check for digit and alphabet
