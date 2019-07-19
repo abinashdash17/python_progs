@@ -1,0 +1,19 @@
+regex tips:
+[char_to_be_matched]
+^d..h$
+[^except_this_character]
+^ - starts with
+$ - ends with
+* - zero or more occurance to left of it
+[chars]
+\w - to match alpha numerci chars including _
+\d - digit chars
+\s - space or blank characters
+note:\d \w etc matches exactly one character. i.e \d\d will search exactly 2 digits
+[quantifiers]
++ - more than one
+* - more than zero
+? - zero or none
+{n,m} - n to m times
+{n}- exactly n times
+use re.findall(pat,str1) to get a list of matched string 
