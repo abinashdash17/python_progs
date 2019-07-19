@@ -16,4 +16,11 @@ note:\d \w etc matches exactly one character. i.e \d\d will search exactly 2 dig
 ? - zero or none
 {n,m} - n to m times
 {n}- exactly n times
+. - single character which is not line break
+| - or 
+() -  group character
+(?:...) - non capturing group
+
+
 use re.findall(pat,str1) to get a list of matched string 
+IMP: use pat=r"pat_string" to avoid clashing with python backslash
