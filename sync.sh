@@ -1,4 +1,5 @@
 #!/bin/bash
+echo Enter a commit message
 read i
 git add -A
 sleep 1
