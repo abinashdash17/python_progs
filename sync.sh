@@ -1,4 +1,5 @@
 #!/bin/bash
+git status
 echo Enter a commit message
 read i
 git add -A
