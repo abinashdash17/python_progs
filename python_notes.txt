@@ -1,6 +1,8 @@
 [range]
 range(a,b) gets values from a to b-1
 [misc functions)
+use eval(expression) to evaluate the value of expression
+use assert (boolean expression)to debug a program with assertiin error
 define encoding at start of tge file
 use str1 = u"hello" to use unicode string
 chr(97) to print character whose ascii value is 97.
