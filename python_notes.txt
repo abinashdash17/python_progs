@@ -1,6 +1,8 @@
 [range]
 range(a,b) gets values from a to b-1
 [misc functions)
+use random.random() to generate random number
+use random.choice([list]) to choose an element randomly from a list
 use eval(expression) to evaluate the value of expression
 use assert (boolean expression)to debug a program with assertiin error
 define encoding at start of tge file
