@@ -1,8 +1,13 @@
 [range]
 range(a,b) gets values from a to b-1
 [misc functions)
+import timeit
+print(timeit.timeit(stm,number=10000))
+zlib.compress(str.encode("utf-8")) for character compression
 use random.random() to generate random number
 use random.choice([list]) to choose an element randomly from a list
+random.sample(range(100),5)
+random.randrange(5,40)
 use eval(expression) to evaluate the value of expression
 use assert (boolean expression)to debug a program with assertiin error
 define encoding at start of tge file
