@@ -1,6 +1,9 @@
 [range]
 range(a,b) gets values from a to b-1
 [misc functions)
+5 in (4,5,6) -> True (list or tuple both are allowed)
+use enumerate(list_name) to get a tuple containing index and value
+from random import shuffle
 import timeit
 print(timeit.timeit(stm,number=10000))
 zlib.compress(str.encode("utf-8")) for character compression
