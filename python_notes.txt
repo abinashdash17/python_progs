@@ -1,6 +1,7 @@
 [range]
 range(a,b) gets values from a to b-1
 [misc functions)
+use & operator to find intersection of two sets
 5 in (4,5,6) -> True (list or tuple both are allowed)
 use enumerate(list_name) to get a tuple containing index and value
 from random import shuffle
