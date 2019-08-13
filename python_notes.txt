@@ -1,6 +1,9 @@
 [range]
 range(a,b) gets values from a to b-1
 [misc functions)
+
+use str.find(substring) to find the index of the pattern else it returns -1
+use bin(decimal_num) to get binary representaion as string
 use str1.rstrip() to remove trailing '\n' or '\r' chars
 use stdin in sys module to read input from file
 ex:
